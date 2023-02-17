@@ -25,6 +25,7 @@ body {
 }
 
 .container {
+  max-width: 1400px;
   z-index: 99;
   width: 80%;
   height: 90%;
@@ -241,3 +242,4 @@ hr {
     padding: 10px 17px;
   }
 }
+
