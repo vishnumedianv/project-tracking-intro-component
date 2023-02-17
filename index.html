@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Project tracking intro component</title>
+
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div>
+          <img src="images/logo.svg" alt="" />
+        </div>
+        <div>
+          <ul class="nav-list">
+            <li>Product</li>
+            <li>Features</li>
+            <li>Pricing</li>
+            <li>&#xB7;</li>
+            <li><span class="login">Login</span></li>
+          </ul>
+          <img
+            onclick="toggleMenu()"
+            id="menu-open"
+            src="images/icon-hamburger.svg"
+            alt="menu"
+          />
+          <img
+            onclick="toggleMenu()"
+            id="menu-close"
+            src="images/icon-close.svg"
+            alt="menu"
+          />
+        </div>
+
+        <div id="mobile-menu">
+          <ul class="mobile-list">
+            <li>Product</li>
+            <li>Features</li>
+            <li>Pricing</li>
+            <hr />
+            <li><span class="login">Login</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="body">
+        <div>
+          <div class="details">
+            <div>
+              <div>
+                <p class="title">
+                  <span class="title-bg">New</span> Monograph Dashboard
+                </p>
+              </div>
+              <div>
+                <p class="main-header">Powerful insights into your team</p>
+              </div>
+            </div>
+            <div>
+              <p class="context">
+                Project planning and time tracking for agile teams
+              </p>
+            </div>
+            <div class="btn">
+              <button>Schedule a demo</button>
+              <p class="buttion-cap">to see a live preview</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <img class="device" src="images/illustration-devices.svg" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
